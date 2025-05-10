@@ -18,7 +18,11 @@ mkdir j/temp
 # Check Contents -> read and write
 
 # Clone repo
-git clone https://github.com/jotafeldmann/j
+git clone https://USER_HERE:PAT_HERE@github.com/jotafeldmann/j.git
+
+#Example
+git clone https://jotafeldmann:github_pat_123456@github.com/jotafeldmann/j.git
+
 
 # Install
 code ~/.bashrc

@@ -21,6 +21,9 @@ elif [ "$COMMAND" = "back" ]; then
 elif [ "$COMMAND" = "last" ]; then
   cat $MY_TEMP_FILE
 
+elif [ "$COMMAND" = "where" ]; then
+  echo $MY_TEMP_FILE
+
 elif [ "$COMMAND" = "a" ]; then
   git add .
 
@@ -31,6 +34,12 @@ elif [ "$COMMAND" = "b" ]; then
   git branch
 
 elif [ "$COMMAND" = "c" ]; then
+  git commit -m "$OPTION"
+
+elif [ "$COMMAND" = "cane" ]; then
+  git commit --amend --no-edit
+
+elif [ "$COMMAND" = "ch" ]; then
   git checkout $OPTION
 
 elif [ "$COMMAND" = "d" ]; then
