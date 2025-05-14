@@ -45,6 +45,9 @@ elif [ "$COMMAND" = "ch" ]; then
 elif [ "$COMMAND" = "d" ]; then
   git diff
 
+elif [ "$COMMAND" = "l" ]; then
+  git log
+
 elif [ "$COMMAND" = "f" ]; then
   git add . && git commit --amend --no-edit && git push -f
 
