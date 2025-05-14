@@ -30,6 +30,9 @@ elif [ "$COMMAND" = "a" ]; then
 elif [ "$COMMAND" = "ac" ]; then
   git add . && git commit -m "$OPTION"
 
+elif [ "$COMMAND" = "acp" ]; then
+  git add . && git commit -m "$OPTION" && git push
+
 elif [ "$COMMAND" = "b" ]; then
   git branch
 
