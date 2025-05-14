@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Usage examples:
-# ./save-path.sh j/temp/save_path.txt save
-# ./save-path.sh j/temp/save_path.txt last
+# . save-path.sh j/temp/save_path.txt save
+# . save-path.sh j/temp/save_path.txt last
 
 THIS_FILE_PATH=$1
 SAVE_PATH_FILE=$2

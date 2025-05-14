@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# usage
+# add to ~/.bashrc
+# add this line to the end of the file
+# source ~/workspace/config/j/j.sh ~/workspace/config/j ~/.bashrc ~/workspace/config/local/local.sh ~/workspace/config/local ~/workspace/config/temp
+
 COLOR_GIT_CLEAN='\[\033[1;30m\]'
 COLOR_GIT_MODIFIED='\[\033[0;33m\]'
 COLOR_GIT_STAGED='\[\033[0;36m\]'

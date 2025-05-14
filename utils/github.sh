@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Usage examples:
-# ./github.sh j/utils/github.sh j/temp/save_path.txt last
-# ./github.sh j/utils/github.sh j/temp/save_path.txt save
+# . github.sh j/utils/github.sh j/temp/save_path.txt last
+# . github.sh j/utils/github.sh j/temp/save_path.txt save
 
 THIS_FILE_PATH=$1
 MY_TEMP_FILE=$2

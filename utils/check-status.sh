@@ -1,4 +1,4 @@
-# . check-status.sh urls_list.txt 60
+# . check-status.sh urls_list.txt 5m
 URLS_FILE=$1
 DELAY=${2:-"10m"}
 STARTED=$(date)

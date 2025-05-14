@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Usage examples:
-# ./save-git-branch.sh j/temp/save-git-branch.txt
-# ./save-git-branch.sh j/temp/save-git-branch.txt save
+# . save-git-branch.sh j/temp/save-git-branch.txt
+# . save-git-branch.sh j/temp/save-git-branch.txt save
 
 SAVE_PATH_FILE=$1
 OPTION=$2

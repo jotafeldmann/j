@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Usage examples:
-# ./j_utils.sh help
+# . j_utils.sh help
 
 THIS_FILE_PATH=$1
 OPTION=$2

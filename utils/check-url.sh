@@ -1,9 +1,9 @@
-# bash check-url.sh http://localhost:8000 200
-# bash check-url.sh http://localhost:8000 500 NOTIFY_CHANGE
-# bash check-url.sh http://localhost:8000 500 CONTINUOUS ONCE
-# bash check-url.sh http://localhost:8000 500 NOTIFY_CHANGE ONCE
-# bash check-url.sh http://localhost:8000 500 ECHO REPEAT 1m
-# bash check-url.sh http://localhost:8000 500 NOTIFY_CHANGE REPEAT_UNTIL_CHANGE 1m
+# . check-url.sh http://localhost:8000 200
+# . check-url.sh http://localhost:8000 500 NOTIFY_CHANGE
+# . check-url.sh http://localhost:8000 500 CONTINUOUS ONCE
+# . check-url.sh http://localhost:8000 500 NOTIFY_CHANGE ONCE
+# . check-url.sh http://localhost:8000 500 ECHO REPEAT 1m
+# . check-url.sh http://localhost:8000 500 NOTIFY_CHANGE REPEAT_UNTIL_CHANGE 1m
 
 URL=$1
 HTTP_EXPECTED_STATUS=${2:-"000"}

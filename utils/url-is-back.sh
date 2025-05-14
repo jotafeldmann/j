@@ -1,5 +1,5 @@
-# sh url-is-back.sh google.com
-# sh url-is-back.sh google.com 1m
+# . url-is-back.sh google.com
+# . url-is-back.sh google.com 1m
 
 URL=$1
 DELAY=${2:-"1m"}
