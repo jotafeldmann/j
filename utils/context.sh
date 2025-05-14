@@ -16,7 +16,7 @@ if [ "$COMMAND" = "create" ]; then
 elif [ "$COMMAND" = "save" ]; then
   echo $OPTION > $MY_TEMP_FILE
 
-elif [ "$COMMAND" = "ls" ]; then
+elif [ "$COMMAND" = "last" ]; then
   cat $MY_TEMP_FILE
 
 elif [ "$COMMAND" = "where" ]; then
