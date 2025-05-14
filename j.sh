@@ -49,28 +49,6 @@ alias je='code $J_SH_MAIN_FILE'
 alias jwe='cd $J_WORKSPACE'
 alias ju='cd $J_UTILS && ls $J_UTILS'
 
-export J_UTIL_SAVE_PATH_FILE=$J_TEMP_DIR/save-path.txt
-function jsp() {
-  . $J_UTILS/save-path.sh $J_UTIL_SAVE_PATH_FILE "$@"
-}
-alias jsp=jsp
-
-export J_UTIL_SAVE_GIT_BRANCH=$J_TEMP_DIR/save-git-branch.txt
-function gsp() {
-  . $J_UTILS/save-git-branch.sh $J_UTIL_SAVE_GIT_BRANCH "$@"
-}
-alias gsp=gsp
-
-export J_UTIL_GIT=$J_TEMP_DIR/save-git.txt
-function g() {
-  . $J_UTILS/github.sh $J_UTILS/github.sh $J_UTIL_GIT "$@"
-}
-alias g=g
-
-export J_UTIL_CONTEXT=$J_TEMP_DIR/context.sh
-function context() {
-  . $J_UTILS/context.sh $J_UTILS/context.sh $J_UTIL_CONTEXT "$@"
-}
-alias jc=context
+source $J_UTILS/_init_.sh
 
 source $J_LOCAL
