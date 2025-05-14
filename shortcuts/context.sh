@@ -1,8 +1,9 @@
 #!/bin/bash
 
 # Usage examples:
-# ./context.sh j/utils/context.sh j/temp/context.sh last
-# ./context.sh j/utils/context.sh j/temp/context.sh save
+# . context.sh j/utils/context.sh j/temp/context.sh save "echo 123"
+# . context.sh j/utils/context.sh j/temp/context.sh last
+# . context.sh j/utils/context.sh j/temp/context.sh
 
 THIS_FILE_PATH=$1
 MY_TEMP_FILE=$2
