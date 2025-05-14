@@ -1,5 +1,11 @@
 #!/bin/bash
 
+function j() {
+  . $J_UTILS/j_utils.sh $J_UTILS/j_utils.sh "$@"
+}
+alias j=j
+
+
 export J_UTIL_SAVE_PATH_FILE=$J_TEMP_DIR/save-path.txt
 function jsp() {
   . $J_UTILS/save-path.sh $J_UTILS/save-path.sh $J_UTIL_SAVE_PATH_FILE "$@"

@@ -35,19 +35,10 @@ export J_PATH=$1
 export J_CURRENT_SHELL_FILE=$2
 export J_LOCAL=$3
 export J_LOCAL_PATH=$4
-export J_WORKSPACE=~/code
-export J_TEMP_DIR=$J_PATH/temp
+export J_TEMP_DIR=$5
+export J_WORKSPACE=~/workspace
 export J_UTILS=$J_PATH/utils
 export J_SH_MAIN_FILE=$J_PATH/j.sh
-
-alias j='cat $J_SH_MAIN_FILE | grep alias'
-alias c='clear'
-alias jj='cd $J_PATH/'
-alias jre='source $J_SH_MAIN_FILE $J_PATH $J_CURRENT_SHELL_FILE $J_LOCAL $J_LOCAL_PATH'
-alias jrb='source $J_CURRENT_SHELL_FILE && echo "Reloaded SHELL"'
-alias je='code $J_SH_MAIN_FILE'
-alias jwe='cd $J_WORKSPACE'
-alias ju='cd $J_UTILS && ls $J_UTILS'
 
 source $J_UTILS/_init_.sh
 
