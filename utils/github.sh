@@ -71,6 +71,9 @@ elif [ "$COMMAND" = "rh" ]; then
 elif [ "$COMMAND" = "s" ]; then
   git status
 
+elif [ "$COMMAND" = "help" ]; then
+  cat $THIS_FILE_PATH
+
 else
   cat $THIS_FILE_PATH
 fi
