@@ -1,0 +1,602 @@
+[
+    {
+        "id": 1,
+        "name": "Company 1",
+        "industryID": 9,
+        "location": "City B, Country B"
+    },
+    {
+        "id": 2,
+        "name": "Company 2",
+        "industryID": 9,
+        "location": "City C, Country C"
+    },
+    {
+        "id": 3,
+        "name": "Company 3",
+        "industryID": 3,
+        "location": "City D, Country D"
+    },
+    {
+        "id": 4,
+        "name": "Company 4",
+        "industryID": 8,
+        "location": "City E, Country E"
+    },
+    {
+        "id": 5,
+        "name": "Company 5",
+        "industryID": 1,
+        "location": "City F, Country A"
+    },
+    {
+        "id": 6,
+        "name": "Company 6",
+        "industryID": 7,
+        "location": "City G, Country B"
+    },
+    {
+        "id": 7,
+        "name": "Company 7",
+        "industryID": 3,
+        "location": "City H, Country C"
+    },
+    {
+        "id": 8,
+        "name": "Company 8",
+        "industryID": 2,
+        "location": "City I, Country D"
+    },
+    {
+        "id": 9,
+        "name": "Company 9",
+        "industryID": 2,
+        "location": "City J, Country E"
+    },
+    {
+        "id": 10,
+        "name": "Company 10",
+        "industryID": 7,
+        "location": "City K, Country A"
+    },
+    {
+        "id": 11,
+        "name": "Company 11",
+        "industryID": 1,
+        "location": "City L, Country B"
+    },
+    {
+        "id": 12,
+        "name": "Company 12",
+        "industryID": 10,
+        "location": "City M, Country C"
+    },
+    {
+        "id": 13,
+        "name": "Company 13",
+        "industryID": 8,
+        "location": "City N, Country D"
+    },
+    {
+        "id": 14,
+        "name": "Company 14",
+        "industryID": 10,
+        "location": "City O, Country E"
+    },
+    {
+        "id": 15,
+        "name": "Company 15",
+        "industryID": 8,
+        "location": "City P, Country A"
+    },
+    {
+        "id": 16,
+        "name": "Company 16",
+        "industryID": 1,
+        "location": "City Q, Country B"
+    },
+    {
+        "id": 17,
+        "name": "Company 17",
+        "industryID": 4,
+        "location": "City R, Country C"
+    },
+    {
+        "id": 18,
+        "name": "Company 18",
+        "industryID": 1,
+        "location": "City S, Country D"
+    },
+    {
+        "id": 19,
+        "name": "Company 19",
+        "industryID": 7,
+        "location": "City T, Country E"
+    },
+    {
+        "id": 20,
+        "name": "Company 20",
+        "industryID": 6,
+        "location": "City U, Country A"
+    },
+    {
+        "id": 21,
+        "name": "Company 21",
+        "industryID": 2,
+        "location": "City V, Country B"
+    },
+    {
+        "id": 22,
+        "name": "Company 22",
+        "industryID": 2,
+        "location": "City W, Country C"
+    },
+    {
+        "id": 23,
+        "name": "Company 23",
+        "industryID": 7,
+        "location": "City X, Country D"
+    },
+    {
+        "id": 24,
+        "name": "Company 24",
+        "industryID": 6,
+        "location": "City Y, Country E"
+    },
+    {
+        "id": 25,
+        "name": "Company 25",
+        "industryID": 6,
+        "location": "City Z, Country A"
+    },
+    {
+        "id": 26,
+        "name": "Company 26",
+        "industryID": 9,
+        "location": "City A, Country B"
+    },
+    {
+        "id": 27,
+        "name": "Company 27",
+        "industryID": 3,
+        "location": "City B, Country C"
+    },
+    {
+        "id": 28,
+        "name": "Company 28",
+        "industryID": 8,
+        "location": "City C, Country D"
+    },
+    {
+        "id": 29,
+        "name": "Company 29",
+        "industryID": 3,
+        "location": "City D, Country E"
+    },
+    {
+        "id": 30,
+        "name": "Company 30",
+        "industryID": 9,
+        "location": "City E, Country A"
+    },
+    {
+        "id": 31,
+        "name": "Company 31",
+        "industryID": 8,
+        "location": "City F, Country B"
+    },
+    {
+        "id": 32,
+        "name": "Company 32",
+        "industryID": 3,
+        "location": "City G, Country C"
+    },
+    {
+        "id": 33,
+        "name": "Company 33",
+        "industryID": 5,
+        "location": "City H, Country D"
+    },
+    {
+        "id": 34,
+        "name": "Company 34",
+        "industryID": 1,
+        "location": "City I, Country E"
+    },
+    {
+        "id": 35,
+        "name": "Company 35",
+        "industryID": 1,
+        "location": "City J, Country A"
+    },
+    {
+        "id": 36,
+        "name": "Company 36",
+        "industryID": 4,
+        "location": "City K, Country B"
+    },
+    {
+        "id": 37,
+        "name": "Company 37",
+        "industryID": 3,
+        "location": "City L, Country C"
+    },
+    {
+        "id": 38,
+        "name": "Company 38",
+        "industryID": 7,
+        "location": "City M, Country D"
+    },
+    {
+        "id": 39,
+        "name": "Company 39",
+        "industryID": 3,
+        "location": "City N, Country E"
+    },
+    {
+        "id": 40,
+        "name": "Company 40",
+        "industryID": 7,
+        "location": "City O, Country A"
+    },
+    {
+        "id": 41,
+        "name": "Company 41",
+        "industryID": 6,
+        "location": "City P, Country B"
+    },
+    {
+        "id": 42,
+        "name": "Company 42",
+        "industryID": 8,
+        "location": "City Q, Country C"
+    },
+    {
+        "id": 43,
+        "name": "Company 43",
+        "industryID": 2,
+        "location": "City R, Country D"
+    },
+    {
+        "id": 44,
+        "name": "Company 44",
+        "industryID": 5,
+        "location": "City S, Country E"
+    },
+    {
+        "id": 45,
+        "name": "Company 45",
+        "industryID": 7,
+        "location": "City T, Country A"
+    },
+    {
+        "id": 46,
+        "name": "Company 46",
+        "industryID": 3,
+        "location": "City U, Country B"
+    },
+    {
+        "id": 47,
+        "name": "Company 47",
+        "industryID": 10,
+        "location": "City V, Country C"
+    },
+    {
+        "id": 48,
+        "name": "Company 48",
+        "industryID": 2,
+        "location": "City W, Country D"
+    },
+    {
+        "id": 49,
+        "name": "Company 49",
+        "industryID": 1,
+        "location": "City X, Country E"
+    },
+    {
+        "id": 50,
+        "name": "Company 50",
+        "industryID": 6,
+        "location": "City Y, Country A"
+    },
+    {
+        "id": 51,
+        "name": "Company 51",
+        "industryID": 6,
+        "location": "City Z, Country B"
+    },
+    {
+        "id": 52,
+        "name": "Company 52",
+        "industryID": 3,
+        "location": "City A, Country C"
+    },
+    {
+        "id": 53,
+        "name": "Company 53",
+        "industryID": 10,
+        "location": "City B, Country D"
+    },
+    {
+        "id": 54,
+        "name": "Company 54",
+        "industryID": 7,
+        "location": "City C, Country E"
+    },
+    {
+        "id": 55,
+        "name": "Company 55",
+        "industryID": 7,
+        "location": "City D, Country A"
+    },
+    {
+        "id": 56,
+        "name": "Company 56",
+        "industryID": 3,
+        "location": "City E, Country B"
+    },
+    {
+        "id": 57,
+        "name": "Company 57",
+        "industryID": 6,
+        "location": "City F, Country C"
+    },
+    {
+        "id": 58,
+        "name": "Company 58",
+        "industryID": 6,
+        "location": "City G, Country D"
+    },
+    {
+        "id": 59,
+        "name": "Company 59",
+        "industryID": 10,
+        "location": "City H, Country E"
+    },
+    {
+        "id": 60,
+        "name": "Company 60",
+        "industryID": 1,
+        "location": "City I, Country A"
+    },
+    {
+        "id": 61,
+        "name": "Company 61",
+        "industryID": 9,
+        "location": "City J, Country B"
+    },
+    {
+        "id": 62,
+        "name": "Company 62",
+        "industryID": 5,
+        "location": "City K, Country C"
+    },
+    {
+        "id": 63,
+        "name": "Company 63",
+        "industryID": 6,
+        "location": "City L, Country D"
+    },
+    {
+        "id": 64,
+        "name": "Company 64",
+        "industryID": 6,
+        "location": "City M, Country E"
+    },
+    {
+        "id": 65,
+        "name": "Company 65",
+        "industryID": 7,
+        "location": "City N, Country A"
+    },
+    {
+        "id": 66,
+        "name": "Company 66",
+        "industryID": 6,
+        "location": "City O, Country B"
+    },
+    {
+        "id": 67,
+        "name": "Company 67",
+        "industryID": 5,
+        "location": "City P, Country C"
+    },
+    {
+        "id": 68,
+        "name": "Company 68",
+        "industryID": 3,
+        "location": "City Q, Country D"
+    },
+    {
+        "id": 69,
+        "name": "Company 69",
+        "industryID": 8,
+        "location": "City R, Country E"
+    },
+    {
+        "id": 70,
+        "name": "Company 70",
+        "industryID": 4,
+        "location": "City S, Country A"
+    },
+    {
+        "id": 71,
+        "name": "Company 71",
+        "industryID": 3,
+        "location": "City T, Country B"
+    },
+    {
+        "id": 72,
+        "name": "Company 72",
+        "industryID": 4,
+        "location": "City U, Country C"
+    },
+    {
+        "id": 73,
+        "name": "Company 73",
+        "industryID": 3,
+        "location": "City V, Country D"
+    },
+    {
+        "id": 74,
+        "name": "Company 74",
+        "industryID": 8,
+        "location": "City W, Country E"
+    },
+    {
+        "id": 75,
+        "name": "Company 75",
+        "industryID": 2,
+        "location": "City X, Country A"
+    },
+    {
+        "id": 76,
+        "name": "Company 76",
+        "industryID": 8,
+        "location": "City Y, Country B"
+    },
+    {
+        "id": 77,
+        "name": "Company 77",
+        "industryID": 9,
+        "location": "City Z, Country C"
+    },
+    {
+        "id": 78,
+        "name": "Company 78",
+        "industryID": 9,
+        "location": "City A, Country D"
+    },
+    {
+        "id": 79,
+        "name": "Company 79",
+        "industryID": 8,
+        "location": "City B, Country E"
+    },
+    {
+        "id": 80,
+        "name": "Company 80",
+        "industryID": 1,
+        "location": "City C, Country A"
+    },
+    {
+        "id": 81,
+        "name": "Company 81",
+        "industryID": 6,
+        "location": "City D, Country B"
+    },
+    {
+        "id": 82,
+        "name": "Company 82",
+        "industryID": 7,
+        "location": "City E, Country C"
+    },
+    {
+        "id": 83,
+        "name": "Company 83",
+        "industryID": 10,
+        "location": "City F, Country D"
+    },
+    {
+        "id": 84,
+        "name": "Company 84",
+        "industryID": 5,
+        "location": "City G, Country E"
+    },
+    {
+        "id": 85,
+        "name": "Company 85",
+        "industryID": 6,
+        "location": "City H, Country A"
+    },
+    {
+        "id": 86,
+        "name": "Company 86",
+        "industryID": 6,
+        "location": "City I, Country B"
+    },
+    {
+        "id": 87,
+        "name": "Company 87",
+        "industryID": 4,
+        "location": "City J, Country C"
+    },
+    {
+        "id": 88,
+        "name": "Company 88",
+        "industryID": 2,
+        "location": "City K, Country D"
+    },
+    {
+        "id": 89,
+        "name": "Company 89",
+        "industryID": 7,
+        "location": "City L, Country E"
+    },
+    {
+        "id": 90,
+        "name": "Company 90",
+        "industryID": 4,
+        "location": "City M, Country A"
+    },
+    {
+        "id": 91,
+        "name": "Company 91",
+        "industryID": 3,
+        "location": "City N, Country B"
+    },
+    {
+        "id": 92,
+        "name": "Company 92",
+        "industryID": 1,
+        "location": "City O, Country C"
+    },
+    {
+        "id": 93,
+        "name": "Company 93",
+        "industryID": 8,
+        "location": "City P, Country D"
+    },
+    {
+        "id": 94,
+        "name": "Company 94",
+        "industryID": 3,
+        "location": "City Q, Country E"
+    },
+    {
+        "id": 95,
+        "name": "Company 95",
+        "industryID": 8,
+        "location": "City R, Country A"
+    },
+    {
+        "id": 96,
+        "name": "Company 96",
+        "industryID": 7,
+        "location": "City S, Country B"
+    },
+    {
+        "id": 97,
+        "name": "Company 97",
+        "industryID": 3,
+        "location": "City T, Country C"
+    },
+    {
+        "id": 98,
+        "name": "Company 98",
+        "industryID": 10,
+        "location": "City U, Country D"
+    },
+    {
+        "id": 99,
+        "name": "Company 99",
+        "industryID": 4,
+        "location": "City V, Country E"
+    },
+    {
+        "id": 100,
+        "name": "Company 100",
+        "industryID": 1,
+        "location": "City W, Country A"
+    }
+]

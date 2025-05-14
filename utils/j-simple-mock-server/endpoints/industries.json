@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "description": "Industry 1 - Specialization in area B"
+    },
+    {
+        "id": 2,
+        "description": "Industry 2 - Specialization in area C"
+    },
+    {
+        "id": 3,
+        "description": "Industry 3 - Specialization in area D"
+    },
+    {
+        "id": 4,
+        "description": "Industry 4 - Specialization in area E"
+    },
+    {
+        "id": 5,
+        "description": "Industry 5 - Specialization in area F"
+    },
+    {
+        "id": 6,
+        "description": "Industry 6 - Specialization in area G"
+    },
+    {
+        "id": 7,
+        "description": "Industry 7 - Specialization in area H"
+    },
+    {
+        "id": 8,
+        "description": "Industry 8 - Specialization in area I"
+    },
+    {
+        "id": 9,
+        "description": "Industry 9 - Specialization in area J"
+    },
+    {
+        "id": 10,
+        "description": "Industry 10 - Specialization in area K"
+    }
+]
