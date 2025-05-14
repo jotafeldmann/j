@@ -27,6 +27,12 @@ elif [ "$OPTION" = "es" ]; then
 elif [ "$OPTION" = "j" ]; then
   cd $J_PATH
 
+# init
+elif [ "$OPTION" = "init" ]; then
+    mkdir $J_TEMP_DIR
+    mkdir $J_LOCAL_PATH;
+    touch $J_LOCAL;
+
 # reload
 elif [ "$OPTION" = "r" ]; then
     source $J_CURRENT_SHELL_FILE && echo "Reloaded SHELL"

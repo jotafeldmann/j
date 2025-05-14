@@ -17,7 +17,7 @@ elif [ "$OPTION" = "create" ]; then
 elif [ "$OPTION" = "last" ]; then
   cat $SAVE_PATH_FILE
 
-elif [ "$OPTION" = "config" ]; then
+elif [ "$OPTION" = "where" ]; then
   echo $SAVE_PATH_FILE
 
 elif [ "$OPTION" = "help" ]; then
