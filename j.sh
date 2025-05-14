@@ -67,4 +67,10 @@ function g() {
 }
 alias g=g
 
+export J_UTIL_CONTEXT=$J_TEMP_DIR/context.sh
+function context() {
+  . $J_UTILS/context.sh $J_UTILS/context.sh $J_UTIL_CONTEXT "$@"
+}
+alias jc=context
+
 source $J_LOCAL
