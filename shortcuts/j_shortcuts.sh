@@ -52,6 +52,10 @@ elif [ "$OPTION" = "update" ]; then
     git pull;
     cd $LAST
 
+# where
+elif [ "$OPTION" = "where" ]; then
+  echo $J_PATH
+
 else
   cat $THIS_FILE_PATH
 fi
