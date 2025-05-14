@@ -39,6 +39,13 @@ elif [ "$OPTION" = "w" ]; then
 elif [ "$OPTION" = "u" ]; then
   cd $J_UTILS && ls $J_UTILS
 
+# update
+elif [ "$OPTION" = "update" ]; then
+    LAST=$pwd;
+    cd $J_PATH;
+    git pull;
+    cd $LAST
+
 else
   cat $THIS_FILE_PATH
 fi
