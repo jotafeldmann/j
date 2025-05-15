@@ -5,21 +5,14 @@ Personal common utils for me, everywhere.
 ⚠️ Remember: this is a public repo, do not commit sensitive data.
 
 ## How to install
-
+Optional: initialize basic folder structure with [utils/j_install.sh](./utils/j_install.sh)
 ```bash
-# Create default folder for configs
-mkdir ~/config
+# Copy script and run
+. utils/j_install.sh
+```
 
-# Create default folder for local only changes
-mkdir ~/config/local
-touch ~/config/local/local.sh
-
-# Create local temp
-mkdir ~/config/temp
-
-# Create a workspace
-mkdir ~/workspace
-
+J installation:
+```bash
 # Clone repo
 
 ## Read only
@@ -36,13 +29,13 @@ git clone https://USER_HERE:PAT_HERE@github.com/jotafeldmann/j.git
 git clone https://jotafeldmann:github_pat_123456@github.com/jotafeldmann/j.git
 
 
-# Install
+# Add to shell
 code ~/.bashrc
 # or
 nano ~/.zshrc
 ```
 
-Go to the last line and add the parameters at [j.sh](./j.sh), then:
+Go to the last line and add the parameters as described on [j.sh](./j.sh), then:
 
 ```bash
 # Back to terminal and run
@@ -50,7 +43,23 @@ source ~/.bashrc
 # or
 source ~/.zshrc
 
-# Init
-j init
-
+# Check
+j 
 ```
+## Ideas
+
+- **Check updates**
+  - maybe a light way to save some date
+  - then for each load check current date 
+  - if current date is equal to the saved one, stop
+  - if current date is after the saved one
+  - then execute some git operation to check
+  - if there is a update, show a message
+  - Update the saved date
+- **Convert to Python**
+  - Less dependent of shell flavor (bash x zsh) or OS
+  - Show case a personal project with frequent updates
+- **Update and sync local configs**
+  - Using local private repo
+  - Git add and commit local configurations and temp folders/files
+  - In case of disaster recover using a common interface

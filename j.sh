@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# usage
+# Usage
 # add these lines at the end of the shell file
 
 # source ~/workspace/config/j/j.sh \
