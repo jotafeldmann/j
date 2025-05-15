@@ -46,15 +46,18 @@ source ~/.zshrc
 # Check
 j 
 ```
-## Ideas
 
+## Ideas
+- **Sync common settings**
+  - Sync vscode and other settings in some repo
+  - Then sync across different hosts 
 - **Check updates**
-  - maybe a light way to save some date
-  - then for each load check current date 
-  - if current date is equal to the saved one, stop
-  - if current date is after the saved one
-  - then execute some git operation to check
-  - if there is a update, show a message
+  - Maybe a light way to save some date
+  - Then for each load check current date 
+  - If current date is equal to the saved one, stop
+  - If current date is after the saved one
+  - Then execute some git operation to check
+  - If there is a update, show a message
   - Update the saved date
 - **Convert to Python**
   - Less dependent of shell flavor (bash x zsh) or OS
