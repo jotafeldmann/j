@@ -1,5 +1,9 @@
 #!/bin/bash
 
+alias c='clear'
+
+alias jr='source $J_CURRENT_SHELL_FILE'
+
 function j() {
   . $J_SHORTCUTS/j_shortcuts.sh $J_SHORTCUTS/j_shortcuts.sh "$@"
 }

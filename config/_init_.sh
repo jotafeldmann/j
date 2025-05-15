@@ -1,10 +1,12 @@
 #/bin/bash
 
+# Prompt colors
 COLOR_GIT_CLEAN='\[\033[1;30m\]'
 COLOR_GIT_MODIFIED='\[\033[0;33m\]'
 COLOR_GIT_STAGED='\[\033[0;36m\]'
 COLOR_RESET='\[\033[0m\]'
 
+# Prompt GIT template
 function git_prompt() {
   if [ -e ".git" ]; then
     branch_name=$(git symbolic-ref -q HEAD)
@@ -25,6 +27,7 @@ function git_prompt() {
   fi
 }
 
+# Prompt template
 # based upon https://gist.github.com/michaelneu/943693f46f7aa249fad2e6841cd918d5
 function prompt() {
   PS1="\[\]\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\] $(git_prompt)\[\]\n"

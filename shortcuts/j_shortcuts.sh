@@ -6,8 +6,6 @@
 THIS_FILE_PATH=$1
 OPTION=$2
 
-alias c='clear'
-
 if [ "$OPTION" = "help" ]; then
   cat $THIS_FILE_PATH
 
@@ -35,7 +33,7 @@ elif [ "$OPTION" = "init" ]; then
 
 # reload
 elif [ "$OPTION" = "r" ]; then
-    source $J_CURRENT_SHELL_FILE && echo "Reloaded SHELL"
+    jr && echo "Reloaded SHELL"
 
 # workspace
 elif [ "$OPTION" = "w" ]; then
