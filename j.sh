@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # usage
-# add to ~/.bashrc
-# add these lines to the end of the file
+# add these lines at the end of the shell file
 
 # source ~/workspace/config/j/j.sh \
 # ~/workspace/config/j \
